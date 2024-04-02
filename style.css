@@ -1,0 +1,21 @@
+html {
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        filter: invert(100%) contrast(75%) hue-rotate(180deg);
+    }
+}
+
+body {
+  max-width: 900px;
+  min-width: 800px;
+  margin: 0 auto;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
